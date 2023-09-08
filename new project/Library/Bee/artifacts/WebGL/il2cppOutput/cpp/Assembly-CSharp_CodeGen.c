@@ -1,0 +1,116 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CarBehaviour_get_turnAmount_mC5F88CB362466722AC87C733A93FFAB044F2BDC1 (void);
+extern void CarBehaviour_Update_m68C7008EC9145CE19B744E926E584BC401739E5A (void);
+extern void CarBehaviour__ctor_m8B15D7D60CB46A05AF29CA03CDEB409B90D741D6 (void);
+extern void FollowCameraBehaviour_Start_mCB3AEB4DE030BE9DA8C695A34B53C00DEB4850F2 (void);
+extern void FollowCameraBehaviour_LateUpdate_m55EC43A3711A2F4BAD109EFE48771BBE94B4AF82 (void);
+extern void FollowCameraBehaviour__ctor_m23BE1254406BD4E4D826D4F22110B8819D36C1E5 (void);
+extern void LeanBehaviour_Update_m666995B7AD5155185C6D71DD973B25342CBBF72A (void);
+extern void LeanBehaviour__ctor_mB146AB6D87D47D114C5A9907EAD29AACAAE54CE8 (void);
+extern void RumbleBehaviour_Start_m02B0AFA6B0E5E8D505215BCFDE32309EAFE2BD0F (void);
+extern void RumbleBehaviour_Update_mA0048DF18DE0F2CAB927C28B40D1200A159E3E22 (void);
+extern void RumbleBehaviour__ctor_m6B15E3B484A034FFE4C0462E86906108E5470300 (void);
+extern void CollectibleBehaviour_Awake_m3CB153B4FD4A192D7882C3984FB91F60355B3D59 (void);
+extern void CollectibleBehaviour_OnTriggerEnter_mE328557D57F180C4821CA0EFD7C693FE81C46CF9 (void);
+extern void CollectibleBehaviour_StartReappearTime_mE27CB13DF74BBFCC1D4E4688A8DB849D3FDCAB07 (void);
+extern void CollectibleBehaviour_ToggleActive_m868D643E4ED474BB2FB8F161B68F4B257451B60F (void);
+extern void CollectibleBehaviour_SetChildrenActiveState_mC1624BB4FB0451CE35F4A0FE4D881C0F33BE156B (void);
+extern void CollectibleBehaviour_SpawnParticles_m173770257F0DBEBA669885F2A240B16EBC11D743 (void);
+extern void CollectibleBehaviour__ctor_m964172689657D12A9785FA497B7A735A15289E47 (void);
+extern void ResetAreaBehaviour_Awake_mB5DEABABDC812E58AB2502D21B08CE8CFF833111 (void);
+extern void ResetAreaBehaviour_OnTriggerEnter_m3975ED180D9C1B118BBC73A71EB204FDD4DA9D81 (void);
+extern void ResetAreaBehaviour_OnTriggerExit_mC4F34CB18BE3CAA34522C4D4DD6C38DDD3292DE8 (void);
+extern void ResetAreaBehaviour_ResetGameObjectPosition_m057C20A68DDBC9AFCBF452FE33BEA22D0D2FEB81 (void);
+extern void ResetAreaBehaviour__ctor_mC32D5C378C85BB81A7987F0B58E7A9D17DB20CF9 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
+{
+	CarBehaviour_get_turnAmount_mC5F88CB362466722AC87C733A93FFAB044F2BDC1,
+	CarBehaviour_Update_m68C7008EC9145CE19B744E926E584BC401739E5A,
+	CarBehaviour__ctor_m8B15D7D60CB46A05AF29CA03CDEB409B90D741D6,
+	FollowCameraBehaviour_Start_mCB3AEB4DE030BE9DA8C695A34B53C00DEB4850F2,
+	FollowCameraBehaviour_LateUpdate_m55EC43A3711A2F4BAD109EFE48771BBE94B4AF82,
+	FollowCameraBehaviour__ctor_m23BE1254406BD4E4D826D4F22110B8819D36C1E5,
+	LeanBehaviour_Update_m666995B7AD5155185C6D71DD973B25342CBBF72A,
+	LeanBehaviour__ctor_mB146AB6D87D47D114C5A9907EAD29AACAAE54CE8,
+	RumbleBehaviour_Start_m02B0AFA6B0E5E8D505215BCFDE32309EAFE2BD0F,
+	RumbleBehaviour_Update_mA0048DF18DE0F2CAB927C28B40D1200A159E3E22,
+	RumbleBehaviour__ctor_m6B15E3B484A034FFE4C0462E86906108E5470300,
+	CollectibleBehaviour_Awake_m3CB153B4FD4A192D7882C3984FB91F60355B3D59,
+	CollectibleBehaviour_OnTriggerEnter_mE328557D57F180C4821CA0EFD7C693FE81C46CF9,
+	CollectibleBehaviour_StartReappearTime_mE27CB13DF74BBFCC1D4E4688A8DB849D3FDCAB07,
+	CollectibleBehaviour_ToggleActive_m868D643E4ED474BB2FB8F161B68F4B257451B60F,
+	CollectibleBehaviour_SetChildrenActiveState_mC1624BB4FB0451CE35F4A0FE4D881C0F33BE156B,
+	CollectibleBehaviour_SpawnParticles_m173770257F0DBEBA669885F2A240B16EBC11D743,
+	CollectibleBehaviour__ctor_m964172689657D12A9785FA497B7A735A15289E47,
+	ResetAreaBehaviour_Awake_mB5DEABABDC812E58AB2502D21B08CE8CFF833111,
+	ResetAreaBehaviour_OnTriggerEnter_m3975ED180D9C1B118BBC73A71EB204FDD4DA9D81,
+	ResetAreaBehaviour_OnTriggerExit_mC4F34CB18BE3CAA34522C4D4DD6C38DDD3292DE8,
+	ResetAreaBehaviour_ResetGameObjectPosition_m057C20A68DDBC9AFCBF452FE33BEA22D0D2FEB81,
+	ResetAreaBehaviour__ctor_mC32D5C378C85BB81A7987F0B58E7A9D17DB20CF9,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[25] = 
+{
+	1163,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	1172,
+	977,
+	1172,
+	1172,
+	949,
+	1172,
+	1172,
+	1172,
+	977,
+	977,
+	977,
+	1172,
+	2281,
+	1172,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	25,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
